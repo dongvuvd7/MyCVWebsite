@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive MyCV</title>
+</head>
+<body>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Đông</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt nav__icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                             <i class='bx bx-user nav__icon' ></i>Objective
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book nav__icon' ></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon' ></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase nav__icon' ></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon' ></i>Certificates
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">
+                            <i class='bx bx-link-external nav__icon' ></i>Projects
+                        </a>
+                    </li>
+                </ul>
+            </div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            
+        </nav>        
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="Avatar/BlackWhiteAvatar.jpg" alt="" class="home__img">
+
+                                <h1 class="home__title">VŨ ĐỨC ĐÔNG</h1>
+                                <h3 class="home_profession">Web developer</h3>
+
+                                <div>
+                                    <a download="" href="../VuDucDongCV_English.pdf" class="home__button-movil">TẢI XUỐNG CV</a>
+                                </div>
+                            </div> 
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-male-sign home__icon'></i> Male
+                                </span>
+                                <span class="home__information">
+                                    <i class='bx bx-calendar-heart home__icon'></i> 13 / 10 / 2000
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-map home__icon"></i> Mỗ Lao - Hà Đông - Hà Nội
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-envelope home__icon"></i> vuducdong2k@gmail.com
+                                </span>
+                                <span class="home__information">
+                                    <i class="bx bx-phone home__icon"></i> 0982073585
+                                </span>
+                            </div>
+                        </div>
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' title="Theme"  id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <a download="" href="../VuDucDongCV_English.pdf"> <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i> </a>
+                    </section>
+
+                </section>          
+                
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__container bd-grid">  
+                        <a href="https://www.facebook.com/don9vu/" target="_black" class="social__link">
+                            <i class='bx bxl-facebook social__icon' ></i> @Vũ Đông
+                        </a> 
+                        <a href="https://www.instagram.com/iwintervd7/" target="_black" class="social__link">
+                            <i class='bx bxl-instagram social__icon' ></i> @iWinterVD7
+                        </a> 
+                        <a href="https://github.com/dongvuvd7?tab=repositories" target="_black" class="social__link">
+                            <i class='bx bxl-github social__icon' ></i> @dongvuvd7
+                        </a>          
+                    </div>
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Objective</h2>
+
+                    <p class="profile__description">Không ngừng nỗ lực học tập.
+                    	<br>Trở thành lập trình viên full stack
+                        <br>Cố gắng áp dụng những kiến thức được dạy và
+                        những kiến thức tự tìm hiểu được để có thể làm
+                        được việc, trở thành một lập trình viên chuyên
+                        nghiệp, mang đến giá trị cho công ty, khách
+                        hàng và cho chính bản thân mình.
+                        <br>Mong muốn học, trau dồi, nâng cao kinh nghiệm
+                        học tập và làm việc để tiến bộ, dần hoàn thiện
+                        bản thân.</p>
+                </section>
+                
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">SINH VIÊN</h3>
+                                <span class="education__studies">
+                                    Học viện Công nghệ Bưu chính Viễn thông<br>
+                                    Ngành: Công nghệ thông tin<br>
+                                </span>
+                                <span class="education__year">2018 - Hiện nay</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> HTML / CSS / JavaScript
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Bootstrap 4
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> C / C++
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Java core / Java swing
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Jquery
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> VueJS basic
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> C# / ASP.NET Core
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Git / Github basic
+                            </li>
+                        </ul>
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Làm việc nhóm
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Tạo lập văn bản
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Thuyết trình / Giao tiếp
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Tự học
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__content">
+                        <div class="experience__data bd-grid">
+                            <p class="experience__description">
+                                <i class='bx bxl-pocket' ></i>
+                                Tham gia khóa học ứng dụng thuật toán trong CNTT của SAMSUNG 2019
+                            </p>
+                            <p class="experience__description">
+                                <i class='bx bxl-pocket' ></i>
+                                Cố gắng tự tìm tòi học hỏi các nguồn học, tài liệu bên ngoài
+                            </p>
+                            <p class="experience__description">
+                                <i class='bx bxl-pocket' ></i>
+                                Tham gia một số khóa học, cuộc thi lập trình trực tuyến trên internet (codelearn, spoj, codeforces …)
+                            </p>
+                            <p class="experience__description">
+                                <i class='bx bxl-pocket' ></i>
+                                Top 22/166 tham dự kì thi lập trình ACM/ICPC PTIT 2020
+                            </p>
+                            <p class="experience__description">
+                                <i class='bx bxl-pocket' ></i>
+                                Tham gia khóa học Xây dựng ứng dụng web trong 15 buổi của Misa <br>
+                                - Sử dụng git/github <br>
+                                - Học Jquery/ Debug với ChromeDevTool <br>
+                                - Học VueJS <br>
+                                - Học C#, ASP.NET Core căn bản <br>
+                                - Áp dụng OOP vào thiết kế, kỹ năng Debug <br>
+                                - Dựng Service chuẩn Resful, dựng database, kiến trúc cơ bản <br>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificates</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">
+                                <i class='bx bxs-graduation'></i> 
+                                Chứng chỉ ứng dụng thuật toán do
+                                SAMSUNG phối hợp PTIT tổ chức
+                                (2019)</h3>
+                            <h3 class="certificate__title">
+                                <i class='bx bxs-graduation'></i> TOEIC 625 (2019)</h3>
+                            <h3 class="certificate__title">
+                                <i class='bx bxs-graduation'></i> Chứng chỉ đào tạo lập trình Web trong 15B của MISA (2021)</h3>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== PROJECTS ==========-->
+                <section class="project section" id="projects">
+                    <h2 class="section-title">Demo projects</h2>
+
+                    <div class="project__container bd-grid" style="">
+                        <!-- <a href="https://dongvuvd7.github.io/fakePepsi.github.io/demo.html" target="_black" class="project__link">
+                            <i class='bx bxs-category-alt project__icon' ></i> Fake home page PepsiVietnam
+                        </a>      
+                        <a href="https://dongvuvd7.github.io/emojiStarRating.github.io/demo.html" target="_black" class="project__link">
+                            <i class='bx bxs-category-alt project__icon' ></i> Emoji Star Rating
+                        </a> 
+                        <a href="https://dongvuvd7.github.io/buyAWatch.github.io/besel.html" target="_black" class="project__link">
+                            <i class='bx bxs-category-alt project__icon' ></i> Một cái ô mua hàng nhỏ
+                        </a>   
+                        <a href="https://dongvuvd7.github.io/GoShopBackground.github.io/background-attackment.html" target="_black" class="project__link">
+                            <i class='bx bxs-category-alt project__icon' ></i> Shop background đơn giản
+                        </a>  
+                        <a href="https://dongvuvd7.github.io/guudemo.github.io/guudemo2.html" target="_black" class="project__link">
+                            <i class='bx bxs-category-alt project__icon' ></i> Khung đọc tin đơn giản
+                        </a> 
+                        <a href="https://dongvuvd7.github.io/MiniGameUsingVueJS/" target="_black" class="project__link">
+                            <i class='bx bxs-category-alt project__icon' ></i> Mini game using VueJS
+                        <a href="https://dongvuvd7.github.io/MisaCukCukWebDemoWithJquery/UI/pages/customer.html" target="_black" class="project__link">
+                            <i class='bx bxs-category-alt project__icon' ></i> MisaCukCuk Web Demo using Jquery
+                        </a>
+                        <a href="https://github.com/dongvuvd7/MisaCukCukDemoWithVueJS/tree/newbranch" target="_black" class="project__link">
+                            <i class='bx bxs-category-alt project__icon' ></i> MisaCukCuk Web Demo using VueJS
+                        </a>         -->
+                        <div class="left-pj">
+                            <a href="https://dongvuvd7.github.io/fakePepsi.github.io/demo.html" target="_blank" rel="noopener noreferrer">
+                            <div class="one-pj">
+                                Remake Homepage Pepsi
+                            </div> </a>
+                            <a href="https://dongvuvd7.github.io/emojiStarRating.github.io/demo.html" target="_blank" rel="noopener noreferrer">
+                            <div class="one-pj">
+                                Emoji Star Rating
+                            </div> </a>
+                            <a href="https://dongvuvd7.github.io/MyCVWebsite/" target="_blank" rel="noopener noreferrer">
+                            <div class="one-pj">
+                                CV responsive website
+                            </div> </a>
+                            <a href="https://dongvuvd7.github.io/GoShopBackground.github.io/background-attackment.html" target="_blank" rel="noopener noreferrer">
+                            <div class="one-pj">
+                                Shop background đơn giản
+                            </div> </a>
+                            <a href="https://dongvuvd7.github.io/Login-RegristerF8/" target="_blank" rel="noopener noreferrer">
+                            <div class="one-pj">
+                                Regrister – Login Form validate
+                            </div> </a>
+                            
+                        </div>
+
+                        <div class="right-pj">
+                            <a href="https://dongvuvd7.github.io/MiniGameUsingVueJS/" target="_blank" rel="noopener noreferrer">
+                            <div class="one-pj">
+                                Mini game using VueJS
+                            </div> </a>
+                            <a href="https://dongvuvd7.github.io/MisaCukCukWebDemoWithJquery/UI/pages/customer.html" target="_blank" rel="noopener noreferrer">
+                            <div class="one-pj">
+                                MisaCukCuk using HTML, CSS, JS, Jquery
+                            </div> </a>
+                            <a href="https://github.com/dongvuvd7/MisaCukCukDemoWithVueJS/tree/newbranch" target="_blank" rel="noopener noreferrer">
+                            <div class="one-pj">
+                                MisaCukCuk Web Demo using VueJS
+                            </div> </a>
+                            <a href="https://github.com/dongvuvd7/MisaAmisWithVueJS" target="_blank" rel="noopener noreferrer">
+                            <div class="one-pj">
+                                MisaAmis Web Demo using VueJS, ASP.NET
+                            </div> </a>
+                            
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== LANGUAGES ==========-->
+                <section class="languages section">
+                    <h2 class="section-title">LANGUAGES</h2>
+
+                    <div class="languages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Đọc hiểu tài liệu tiếng Anh cơ bản                               
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-film interests__icon' ></i>
+                            <span class="interests__name">Movie / Film</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxs-book-open interests__icon' ></i>
+                            <span class="interests__name">Read</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bxs-music interests__icon' ></i>
+                            <span class="interests__name">Music</span>
+                        </div>
+                        <div class="interests__content">
+                            <i class='bx bx-football interests__icon' ></i>
+                            <span class="interests__name">Sports</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>        
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bxs-arrow-to-top scrolltop__icon'></i>
+    </a>
+
+
+
+    
+    <script src="main.js"></script>
+
+</body>
+</html>
